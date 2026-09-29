@@ -1,0 +1,10 @@
+*.log
+*.class
+*.jar
+*.tmp
+*.csv
+*.avro
+*.json
+.env
+target/
+output/

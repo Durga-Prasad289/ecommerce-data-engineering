@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "Product",
+  "fields": [
+    {"name":"product_id","type":"int"},
+    {"name":"product_name","type":"string"},
+    {"name":"category_id","type":"int"},
+    {"name":"price","type":"double"},
+    {"name":"stock_quantity","type":"int"},
+    {"name":"supplier","type":"string"},
+    {"name":"product_rating","type":"double"},
+    {"name":"created_date","type":"string"}
+  ]
+}
+
