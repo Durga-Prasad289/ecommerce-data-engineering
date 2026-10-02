@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>E-Commerce Data Engineering Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+</head>
+
+<body>
+
+    <h1>E-Commerce Data Engineering Dashboard</h1>
+
+    <div id="dashboard">
+
+        <div id="summary">
+            <h2>Business Summary</h2>
+
+            <div id="totalSales">
+                Total Sales: Loading...
+            </div>
+
+            <div id="totalOrders">
+                Total Orders: Loading...
+            </div>
+        </div>
+        <div id="productSection">
+            <h2>Sales by Product</h2>
+            <div id="productChart">
+                <canvas id="productSalesChart"></canvas>
+            </div>
+
+        </div>
+
+        <div id="categorySection">
+            <h2>Sales by Category</h2>
+            <div id="categoryChart">
+                <canvas id="categorySalesChart"></canvas>
+            </div>
+        </div>
+        <div id="monthlySection">
+            <h2>Monthly Sales</h2>
+            <div id="monthlyChart">
+                <canvas id="monthlySalesChart"></canvas>
+            </div>
+        </div>
+
+        <div id="customerSection">
+            <h2>Top Customers</h2>
+            <div id="customerChart">
+                <canvas id="customerSalesChart"></canvas>
+            </div>
+        </div>
+        <div id="statusSection">
+            <h2>Order Status</h2>
+            <div id="statusChart">
+                <canvas id="orderStatusChart"></canvas>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
