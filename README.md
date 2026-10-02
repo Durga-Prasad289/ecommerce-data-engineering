@@ -139,7 +139,7 @@ From the project directory:
 
 ```bash
 python -m http.server 8000
-
+```
 Open:
 
 ```text
