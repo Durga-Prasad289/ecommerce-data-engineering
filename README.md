@@ -78,6 +78,7 @@ The project contains seven MySQL tables:
 ├── raw
 ├── processed
 └── archive
+```
 
 ## Hive Analytics
 
@@ -130,6 +131,7 @@ ecommerce-data-engineering/
 ├── spark/
 ├── README.md
 └── .gitignore
+```
 
 ## How to Run the Dashboard
 
@@ -142,6 +144,7 @@ Open:
 
 ```text
 http://localhost:8000/dashboard/
+```
 
 ## GitHub
 
